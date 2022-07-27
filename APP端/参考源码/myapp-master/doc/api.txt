@@ -1,0 +1,35 @@
+http://192.168.31.32:8080/renren-fast
+
+登录接口
+    请求地址: /app/login
+    请求方法: post
+    请求头: Content-Type: application/json;charset=UTF-8
+    请求体实例：
+        {
+            "mobile": "13612345678",
+            "password": "admin",
+        }
+
+    响应结果:
+        {
+            "msg": "success",
+            "code": 0,
+            "expire": 604800,
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTkyMDQ0MzEyLCJleHAiOjE1OTI2NDkxMTJ9.FpOxHrkpYSexqo91Uk8YiS1Nf1Plox4a4nYoFu6ArLcy28beZyoGJbf9fTJ3L-eUs2ku0zABoxjDuMAZ7qzNhw"
+        }
+
+
+
+点赞、收藏接口
+    请求地址: /app/videolist/updateCount
+    请求方法: post
+    请求头: Content-Type: application/json;charset=UTF-8
+    请求体实例：
+        {
+            "type": 0,  //  （0 评论, 1 收藏, 2 点赞)
+            "vid": 1,  // 视频id
+            "flag": true // (true 已收藏, false 未收藏 / true 已点赞, false 未点赞 )
+        }
+
+    响应结果:
+        ...

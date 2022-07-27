@@ -1,0 +1,208 @@
+db.video.insertMany([{
+	"vid" : NumberInt(1),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(2),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(3),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(4),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(5),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(6),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(7),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(8),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(9),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(10),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(11),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(12),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(13),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(14),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(15),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(16),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(17),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(18),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(19),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(20),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(21),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(22),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(23),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(24),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(25),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+},
+{
+	"vid" : NumberInt(26),
+	"commentnum" : NumberInt(0),
+	"likenum" : NumberInt(0),
+	"collectnum" : NumberInt(0),
+	"flagLike" : false,
+	"flagCollect" : false
+}])

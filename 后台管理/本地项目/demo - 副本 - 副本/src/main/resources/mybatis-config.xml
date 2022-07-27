@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--		<!DOCTYPE configuration-->
+<!--				PUBLIC "-//mybatis.org//DTD Config 3.0//EN"-->
+<!--				"http://mybatis.org/dtd/mybatis-3-config.dtd">-->
+<!--<configuration>-->
+<!--	<settings>-->
+<!--		&lt;!&ndash; 设置日志输出为LOG4J &ndash;&gt;-->
+<!--		<setting name="logImpl" value="LOG4J" />-->
+<!--		&lt;!&ndash;将以下画线方式命名的数据库列映射到 Java 对象的驼峰式命名属性中&ndash;&gt;-->
+<!--		<setting name= "mapUnderscoreToCamelCase" value="true" />-->
+<!--	</settings>-->
+<!--	&lt;!&ndash;简化类命名空间 &ndash;&gt;-->
+<!--&lt;!&ndash;	<typeAliases>&ndash;&gt;-->
+<!--&lt;!&ndash;		<package name="tk.mybatis.simple.model" />&ndash;&gt;-->
+<!--&lt;!&ndash;	</typeAliases>&ndash;&gt;-->
+
+<!--	<environments default="development">-->
+<!--		<environment id="development">-->
+<!--			<transactionManager type="JDBC" />-->
+<!--			<dataSource type="UNPOOLED">-->
+<!--				<property name="driver" value="com.mysql.jdbc.Driver" />-->
+<!--				<property name="url"-->
+<!--				          value="jdbc:mysql://localhost:3306/mybatis?useSSL=false" />-->
+<!--				<property name="username" value="root" />-->
+<!--				<property name="password" value="123456" />-->
+<!--			</dataSource>-->
+<!--		</environment>-->
+<!--	</environments>-->
+<!--	<mappers>-->
+<!--		&lt;!&ndash;常规做法&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/CountryMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/PrivilegeMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/RoleMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/RolePrivilegeMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/UserMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;<mapper resource="tk/mybatis/simple/mapper/UserRoleMapper.xml" />&ndash;&gt;-->
+<!--		&lt;!&ndash;第二种做法&ndash;&gt;-->
+<!--		<package name="tk.mybatis.simple.mapper"/>-->
+<!--	</mappers>-->
+<!--</configuration>-->

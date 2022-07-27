@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zwj.demo.mapper.NewsMapper">
+
+	<select id="findPage" resultMap="categoryMap">
+		select sys_news.*,sys_category.type,sys_user.* from sys_news
+		left join sys_category
+		on sys_news.cid=sys_category.id
+		left join sys_user
+		on sys_user.id=sys_news.uid
+		<where>
+			<if test="title != null and title != ''">
+				and title like concat('%',#{title},'%')
+			</if>
+		</where>
+
+	</select>
+	<resultMap id="categoryMap" type="com.zwj.demo.entity.News">
+		<!--association关联属性 property属性名 javaType属性类型 column在多的一方的表中的列名-->
+		<association property="category" column="cid" javaType="com.zwj.demo.entity.Category" select="getCategory"/>
+		<association property="user" column="uid" javaType="com.zwj.demo.entity.User" select="getUser"/>
+	</resultMap>
+	<select resultType="com.zwj.demo.entity.User" id="getUser">
+				select * from sys_user where id = #{id}
+	</select>
+	<select resultType="com.zwj.demo.entity.Category" id="getCategory">
+				select * from sys_category where id = #{id}
+	</select>
+
+	<select id="findAll" resultMap="categoryMap">
+		select sys_news.*,sys_category.type from sys_news
+		left join sys_category
+		on sys_news.cid=sys_category.id
+		<where>
+			<if test="title != null and title != ''">
+				and title like concat('%',#{title},'%')
+			</if>
+		</where>
+	</select>
+
+	<select id="findPageByCategoryId" resultMap="categoryMap">
+		select sys_news.*,sys_category.type from sys_news
+		left join sys_category
+		on sys_news.cid=sys_category.id
+		<where>
+			<if test="title != null and title != ''">
+				 sys_news.title like concat('%',#{title},'%')
+			</if>
+
+			<if test="categoryId != null and categoryId != ''">
+				and sys_news.cid = #{categoryId}
+			</if>
+		</where>
+
+
+	</select>
+</mapper>

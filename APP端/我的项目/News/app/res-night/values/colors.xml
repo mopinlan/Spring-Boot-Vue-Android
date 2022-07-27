@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skin_text_white_night">#000000</color>
+    <color name="skin_topbar_bg_color_night">#00bfff</color>
+</resources>

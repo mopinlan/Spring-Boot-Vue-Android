@@ -1,0 +1,9 @@
+1.安装mysql8
+
+2.设置密码和账号
+  root   123456
+
+3.使用navicat工具导入myapp.sql文件
+
+4.使用java命令运行Tomcat
+  java -jar renren-fast.jar
